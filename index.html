@@ -49,7 +49,48 @@
                 <img src="IMG/линия.png" alt="" class="line"><img src="IMG/стрелка.png" alt=""><Button class="btn3">Контакты</Button>
             </ButtonGroup>
         </div>
+        <div class="secondblock">
+          <div class="txtblock2">
+              <h3>МЫ ПРЕДЛАГАЕМ</h3>
+              <h1>Наши услуги</h1>
+              <p>Современные высокопрочные промышленные бетонные полы сочетают в себе высокую функциональность и эстетическую привлекательность. Такие полы служат долго и не требуют ремонта.</p>
+              <button class="btn4">Смотреть все услуги</button>
+          </div>
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="/examples/libs/chief-slider/chief-slider.min.css">
+          <script defer src="/examples/libs/chief-slider/chief-slider.min.js"></script>
+          <script>
+            document.addEventListener('DOMContentLoaded', function () {
+              const slider = new ChiefSlider('.slider', {
+                loop: true
+              });
+            });
+          </script>
+          <div class="container">
+            <div class="slider">
+              <div class="slider__wrapper">
+                <div class="slider__items">
+                  <div class="slider__item">
+                    <button class="btn5">Задать вопрос</button>
+                  </div>
+                  <div class="slider__item">
+                    <button class="btn5">Задать вопрос</button>
+                  </div>
+                  <div class="slider__item">
+                    <button class="btn5">Задать вопрос</button>
+                  </div>
+                </div>
+              </div>
+              <a href="#" class="slider__control" data-slide="prev"></a>
+              <a href="#" class="slider__control" data-slide="next"></a>
+            </div>
+          </div>
         </div>
     </div>       
 </body>
 </html>
+
+<!-- ChiefSlider CSS -->
+<link rel="stylesheet" href="css/chief-slider.min.css">
+<!-- ChiefSlider JavaScript -->
+<script defer src="js/chief-slider.js"></script>
